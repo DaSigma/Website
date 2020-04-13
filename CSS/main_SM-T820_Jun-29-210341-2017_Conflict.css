@@ -1,0 +1,171 @@
+body {
+    font-family: Georgia, serif;
+    background: lightgray url(..//web_images/bg.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+#outer {
+    border: black solid 2px;
+    margin: 0 auto;
+    width: 960px;
+    background-color: whitesmoke;
+}
+
+#header {
+    height: 160px;
+    position: relative;
+    background: #fff;
+    border: 5px;
+}
+#logo {
+    float: left;
+
+}
+#comptia {
+    float: right;
+    padding: 1px 1px;
+}
+
+nav {
+    border-style: outset;
+    background: white;
+    position: absolute;
+    left: 300px;
+    bottom: 0px;
+       
+}
+marquee {
+    display: block;
+    padding-top: 20px;
+    margin-left: 255px;
+    margin-right: 145px;
+    font-size: 64px;
+    color: darkblue;
+}
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+nav li a:link, nav li a:visited {
+	font-family:"Arial Black", Gadget, sans-serif;
+    float: left;
+    text-decoration: none;
+	display:block;
+	color:darkblue;
+	padding:15px;
+	margin-right:0px;
+	line-height:20px;
+	background-color:white;
+	border-radius:5px;
+	border: solid 1px #fff;
+}
+
+nav li a:hover, nav li a:active {
+	font-family:"Arial Black", Gadget, sans-serif;
+	display:block;
+	color:white;
+    text-decoration:none;
+	padding:15px;
+	margin-right: 0px;
+	line-height:20px;
+	background-color:red;
+	border-radius:5px;
+	border: solid 1px #fff;
+}
+
+nav li a.current {
+    margin-top: -5px;
+    height: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+    
+
+#content {
+    position: relative;
+    width: 700px;
+    float: left;
+}
+
+#mainsection {
+    width: 500px;
+    margin-left:50px;
+    margin-right: 200px;
+    padding: 0 10px;
+    }
+
+.section1, .section2,.section3,.section4{
+    float: left;
+    height: 370px;
+    width: 330px;
+    padding: 1px;
+    margin: 2px;
+    
+}
+
+.section5, .section6,.section7{
+    float: left;
+    padding: 0 10px;
+    margin: 2px;
+    
+}
+
+figure {
+    border-style: inset;
+    padding: 5px;
+    width: 300px;
+    background: lightgray;
+    color: darkslategray;
+}
+
+iframe {
+    margin: 10px;
+    border: 5px;
+    border-style: outset;
+}
+
+table#software {
+    margin: auto;
+    border-style: inset;
+    width: 500px;
+    background-color: lightblue;
+}
+
+.tablehead {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+td {
+    background-color: white;
+}
+
+
+#side {
+    background: lightblue;
+    float: right;
+    width: 230px;
+    padding: 0 10px;
+    border-left: solid black 1px
+}
+
+#dj {
+    margin-left: 10px;
+    border: solid white 5px;
+    padding: 2px;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+
