@@ -13,7 +13,7 @@ body {
 }
 
 #header {
-    height: 20%;
+    height: 25%;
     position: absolute;
     background: whitesmoke;
     border: 5px;
@@ -22,23 +22,22 @@ body {
 #logo {
     left:0;
     width: 50%;
-    position: absolute;
+    position: relative;
 
 }
 
 #fce-logo{
-    width: 50%;
-    /* position: relative; */
+
+    float: left;
+    position: relative;
 }
 #comptia {
-    position: absolute;
-    right: 0;
-    width: 20%;
+    position: relative;
+    float: right;
 }
 #comptia-image {
-    right: 0;
-    position: absolute;
-    width: 100%;
+    position: relative;
+    width: 200px;
 }
 
 #nav {
@@ -46,12 +45,14 @@ body {
     background: white;
     position: absolute;
     bottom: 0;
-    left: 35em;
+    left: 0%;
+    right: 0;
 
 }
 marquee {
     display: block;
-    right: 0;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 20px;
     font-size: 64px;
     color: darkblue;
@@ -105,6 +106,7 @@ nav li a.current {
     
 
 #content {
+    margin-top: 15em;
     position: absolute;
     width: 80%;
     float:left;
