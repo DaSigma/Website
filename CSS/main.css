@@ -13,34 +13,46 @@ body {
 }
 
 #header {
-    height: 160px;
-    position: relative;
+    height: 20%;
+    position: absolute;
     background: whitesmoke;
     border: 5px;
+    padding-bottom: 2em;
     }
 #logo {
-    float: left;
+    left:0;
+    width: 50%;
+    position: absolute;
 
+}
+
+#fce-logo{
+    width: 50%;
+    /* position: relative; */
 }
 #comptia {
-    float: right;
-    padding: 1px 1px;
+    position: absolute;
+    right: 0;
+    width: 20%;
+}
+#comptia-image {
+    right: 0;
+    position: absolute;
+    width: 100%;
 }
 
-nav {
+#nav {
     border-style: outset;
     background: white;
-    /* position: absolute; */
-    left: 300px;
-    bottom: 0px;
-    float: right;
-       
+    position: absolute;
+    bottom: 0;
+    left: 35em;
+
 }
 marquee {
     display: block;
+    right: 0;
     padding-top: 20px;
-    margin-left: 255px;
-    margin-right: 145px;
     font-size: 64px;
     color: darkblue;
 }
@@ -93,7 +105,7 @@ nav li a.current {
     
 
 #content {
-    position: relative;
+    position: ;
     width: 80%;
     float:left;
 }
