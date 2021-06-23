@@ -105,7 +105,7 @@ nav li a.current {
     
 
 #content {
-    position: ;
+    position: absolute;
     width: 80%;
     float:left;
 }
