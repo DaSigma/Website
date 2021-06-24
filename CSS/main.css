@@ -12,6 +12,15 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+    top: .5rem;
+    margin: .5rem;
+    margin-bottom: 2rem;
+}
+
 #header {
     height: 15rem;
     background: whitesmoke;
@@ -29,7 +38,7 @@ body {
 #fce-logo{
 
     /* height: auto; */
-    top: 3.5rem;
+    top: 2.5rem;
     display: block;
     float: left;
     position: relative;
@@ -39,7 +48,7 @@ body {
     float: right;
 }
 #comptia-image {
-    top: 3.5rem;
+    top: 2.5rem;
     position: relative;
     width: 200px;
     height: auto;
@@ -48,11 +57,11 @@ body {
 #nav {
     /* border-style: outset; */
     width: 100%;
-    text-align: center;
     background: white;
-    display: block;
+    display: inline-block;
     margin-top: 0;
     position: absolute;
+    left: 0;
     top:0;
 
 }
@@ -85,7 +94,7 @@ nav li a:link, nav li a:visited {
     text-decoration: none;
 	display:block;
 	color:darkblue;
-	padding:15px;
+	padding: .5rem;
 	margin-right:0px;
 	line-height:20px;
 	background-color:white;
@@ -98,7 +107,7 @@ nav li a:hover, nav li a:active {
 	display:block;
 	color:white;
     text-decoration:none;
-	padding:15px;
+	/* padding:15px; */
 	margin-right: 0px;
 	line-height:20px;
 	background-color:red;
@@ -119,6 +128,7 @@ nav li a.current {
     position: relative;
     width: 80%;
     float:left;
+    font-size: 1.5rem;
 }
 
 #mainsection {
@@ -126,7 +136,6 @@ nav li a.current {
     margin-left:.5rem;
     margin-right: 2em;
     padding: 0 10px;
-    font-size: 1.5rem;
     }
 
 #mainsection p, h2 {
@@ -207,6 +216,7 @@ aside {
     padding: 2px;
 }
 footer {
+    font-size: small;
     clear: both;
     text-align: center;
 }
