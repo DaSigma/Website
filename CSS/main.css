@@ -7,16 +7,16 @@ body {
 
 #outer {
     border: white solid 2px;
-    margin: 0 auto;
-    /* width: 960px; */
+    /* max-width: 1260px; */
     background-color: white;
+    margin: auto;
 }
 
 #header {
-    height: 30%;
+    height: 15rem;
     background: whitesmoke;
     border: 5px;
-    padding-bottom: 2em;
+    padding-bottom: .3rem;
     }
 #logo {
     left:0;
@@ -29,6 +29,8 @@ body {
 #fce-logo{
 
     /* height: auto; */
+    top: 3.5rem;
+    display: block;
     float: left;
     position: relative;
 }
@@ -37,6 +39,7 @@ body {
     float: right;
 }
 #comptia-image {
+    top: 3.5rem;
     position: relative;
     width: 200px;
     height: auto;
@@ -44,19 +47,23 @@ body {
 
 #nav {
     /* border-style: outset; */
+    width: 100%;
+    text-align: center;
     background: white;
-    position: relative;
-    margin-top: 5em;
-    bottom: 1em;
-    left: 0;
-    right: 0;
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    top:0;
 
 }
+
 marquee {
     display: block;
-    padding-right: 20px;
+    top: 5rem;
+    position: relative;
+    /* padding-right: 20px;
     padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 20px; */
     font-size: 64px;
     color: darkblue;
 }
@@ -115,22 +122,33 @@ nav li a.current {
 }
 
 #mainsection {
-    width: 50%;
-    margin-left:2em;
+    width: 100%;
+    margin-left:.5rem;
     margin-right: 2em;
     padding: 0 10px;
     font-size: 1.5rem;
     }
 
-.section1, .section2,.section3,.section4{
+#mainsection p, h2 {
+    margin: 0;
+    padding-right: .5rem;
+}
+
+div .section1, div .section2, div .section3, div .section4 {
+    max-width: 50%;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+/* .section1, .section2,.section3,.section4{
     float: left;
     height: 40%;
-    width: 50%;
+    width: 100%;
     padding: 1px;
     margin: 2px;
     position: relative;
     
-}
+} */
 
 .section5, .section6,.section7,.section8{
     float: left;
@@ -142,8 +160,9 @@ nav li a.current {
 
 figure {
     border-style: inset;
-    padding: 5px;
-    width: 40%;
+    margin: .1rem;
+    padding: .1rem;
+    margin: 1rem;
     background: lightgray;
     color: darkslategray;
 }
@@ -171,7 +190,7 @@ td {
 }
 
 
-#side {
+aside {
     background: darkblue;
     color: white;
     float: right;
@@ -181,7 +200,9 @@ td {
 }
 
 #dj {
-    margin-left: 10px;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    max-width: 100%;
     border: solid white 5px;
     padding: 2px;
 }
