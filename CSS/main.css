@@ -159,7 +159,7 @@ div .section1, div .section2, div .section3, div .section4 {
     
 } */
 
-.section5, .section6,.section7,.section8{
+.section5, .section6, .section7,.section8{
     float: left;
     padding: 0 2em;
     margin: 2em;
@@ -172,8 +172,11 @@ figure {
     margin: .1rem;
     padding: .1rem;
     margin: 1rem;
-    background: lightgray;
     color: darkslategray;
+}
+
+figure h2, figcaption{
+    text-align: center;
 }
 
 iframe {
@@ -183,9 +186,9 @@ iframe {
 }
 
 table#software {
-    margin: auto;
+    margin: 2rem;
     border-style: inset;
-    width: 500px;
+    width: 100%;
     background-color: lightblue;
 }
 
@@ -198,22 +201,21 @@ td {
     background-color: white;
 }
 
-
 aside {
+    margin-bottom: 3rem;
     background: darkblue;
     color: white;
     float: right;
-    width: 15%;
-    padding: 0 10px;
-    border-left: solid black 1px
+    max-width: 15%;
+    padding: 0 .5rem;
+    min-height: 90em;
 }
 
 #dj {
-    margin-left: .1rem;
-    margin-right: .1rem;
-    max-width: 100%;
+    margin-right: 1em;
+    margin-left: 1em;
+    max-width: 80%;
     border: solid white 5px;
-    padding: 2px;
 }
 footer {
     font-size: small;
@@ -224,5 +226,9 @@ footer {
 .section-images {
     width:95%;
     padding:1%;
+}
+
+.usefull-software{
+    text-align: center;
 }
 
